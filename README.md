@@ -6,7 +6,7 @@ Esse é um projeto com intuito de projetar as amplitudes térmicas divulgadas pe
 A motivação para esse trabalho deu-se ao encontrar um exercício do Coursera sobre plots utilizando a biblioteca matplotlib. O exercício proposto tinha as mesmas características, entretanto, o dataframe disponibilizado eram de estações no entrono de Detroit (EUA).
 
 ### Objetivo
-Inicialmente, o objetivo era de realizar essa análise com dados da cidade de São Paulo, já que no NCEI estão disponibilizadas as temperaturas de milhares de estações climáticas espalhadas por todo mundo, no entanto devido a falta de atualizações da base de dados (a maioria dos datasets disponíveis tinham as últimas observações datadas de 1990), e longos períodos com ausência de dados.
+Inicialmente, o objetivo era de realizar essa análise com dados da cidade de São Paulo, já que no NCEI estão disponibilizadas as temperaturas de milhares de estações climáticas espalhadas por todo mundo, no entanto devido a falta de atualizações da base de dados (a maioria dos datasets disponíveis tinham as últimas observações datadas de 1990), e longos períodos com ausência de dados não foi possível realizar a análise da capital paulista.
 
 ### Manipulação dos dados
 O projeto foi desenvolvido no Google Colab. A partir do download do dataset com as temperaturas do aeroporto no site da NCEI, foi feita a limpeza da base dados, recortando o frame do período de estudo, removendo as variáveis que não são utilizadas e as observações dos anos bissextos (29/02) no período.  
